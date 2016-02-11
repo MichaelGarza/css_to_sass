@@ -1,0 +1,43 @@
+.main-footer {
+   background: $color-main;
+   padding: $side-pad-sm;
+   padding-top: 40px;
+   @include tablet {
+      padding: $side-pad-md;
+      padding-bottom: 50px;
+   }
+   @include desktop {
+      padding: $side-pad-lg;
+      padding-bottom: 0;   
+   }
+}
+
+.contact {
+   max-width: 500px;
+   @extend %zero-auto;
+   ul {
+      @extend %zero-auto;
+      padding-top: 30px;
+      padding-bottom: 50px;
+      font-size: 1.09em;
+      @include tablet {
+         font-size: 1.25em;
+         padding-bottom: 60px;
+      }
+   }
+   li {
+      padding: 5px;
+   }
+   p {
+      font-size: 1.09em;
+      @extend %zero-auto;
+      padding-top: 5px;
+      @include tablet {
+         font-size: 1.25em;
+         padding-top: 20px;
+         padding-bottom: 20px;
+      }
+   }
+}
+
+

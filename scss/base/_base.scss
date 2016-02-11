@@ -1,0 +1,34 @@
+/*/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+   box-sizing: border-box; 
+}
+
+body {
+   font-family: 'Ek Mukta', sans-serif;
+   line-height: 1.4;
+   color:$color-font;
+   @extend %centered;
+   background: $color-main;
+   @include desktop {
+      max-width: 1280px;
+      margin: 0 auto;   
+   }
+}
+
+ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+a {
+   text-decoration: none;
+   color: $color-font;
+}
+
+img {
+   max-width: 100%;
+   border-radius: $br;
+}

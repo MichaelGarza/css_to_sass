@@ -1,0 +1,104 @@
+/* Setting things up */
+
+@media only screen and (max-width: 430px) {
+
+   nav {
+      li {
+         list-style-type: none;
+         display: block;
+         float: left;
+         background: #494949;
+         border-radius: 0 0 .5em 0;
+         border-top: .5px solid #888;        
+         padding: .5em .5em;
+         -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box; 
+         box-sizing: border-box;
+         width: 20%;
+         text-align: center; 
+         &:hover {
+            background: #888;
+         }
+      }
+      a {
+         color: #D1DDD3;
+      }
+   }
+
+   a.open-panel, a.close-panel {
+      display: none;
+   }
+   
+   // Reveal open/close buttons    
+   
+   a.open-panel, a.close-panel {
+      display: block;
+      width: 50px;
+   }
+
+   .open-panel {
+      float: right;
+      padding-top: 10px;
+      svg {
+         width: 25px;
+         height: 25px; 
+      }      
+   }
+   
+   .close-panel {
+      float: right;
+      padding-top: 10px;
+      svg {
+         width: 15px;
+         height: 15px; 
+      }
+   }
+
+   // Move nav off screen, setup transitions 
+   nav {
+      width: 200px;
+      position: absolute;
+      left: -91%;
+      top: 0;
+      height: 30%;
+   }
+  
+   // Display nav items vertically 
+   ul.menu {
+      border-top: 1px solid #888;
+      li {
+         float: none;
+         width: 100%;
+         text-align: left;
+         padding: .5em 1em;
+         box-sizing: border-box;  
+      }
+   }  
+
+   .openNav #page {
+      left: 0;
+      -webkit-transform: translate3d(85%, 0, 0);
+      -moz-transform: translate3d(85%, 0, 0);
+      -ms-transform: translate3d(85%, 0, 0);
+      -o-transform: translate3d(85%, 0, 0);
+      transform: translate3d(85%, 0, 0);
+      -webkit-transition: -webkit-transform 500ms ease;
+      -moz-transition: -moz-transform 500ms ease;
+      -o-transition: -o-transform 500ms ease;
+      transition: transform 500ms ease;
+   }
+  
+   // When the panel is closed, transition the page back to the left 
+   #page {
+      left: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+      -o-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      -webkit-transition: -webkit-transform 500ms ease;
+      -moz-transition: -moz-transform 500ms ease;
+      -o-transition: -o-transform 500ms ease;
+      transition: transform 500ms ease;
+   }
+}

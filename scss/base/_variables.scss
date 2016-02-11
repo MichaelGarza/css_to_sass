@@ -1,0 +1,24 @@
+// Descriptive color variables 
+
+$tasman     :#D1DDD3;
+$white      :#fff;
+$suva-grey  :#888;
+$tundora    :#494949;
+
+
+// Functional color variables
+
+$color-main       :$tasman;
+$color-secondary  :$white;
+$color-menu       :$suva-grey;
+$color-font       :$tundora;
+
+// Border radius
+
+$br: .5em; 
+
+// Left/Right padding
+
+$side-pad-sm      :0 1em 0 1em;
+$side-pad-md      :0 2em 0 2em;
+$side-pad-lg      :0 4em 0 4em;

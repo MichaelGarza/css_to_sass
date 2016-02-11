@@ -1,0 +1,82 @@
+/* Setting things up */
+@media only screen and (max-width: 430px) {
+  nav li {
+    list-style-type: none;
+    display: block;
+    float: left;
+    background: #494949;
+    border-radius: 0 0 .5em 0;
+    border-top: .5px solid #888;
+    padding: .5em .5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 20%;
+    text-align: center; }
+    nav li:hover {
+      background: #888; }
+  nav a {
+    color: #D1DDD3; }
+
+  a.open-panel, a.close-panel {
+    display: none; }
+
+  a.open-panel, a.close-panel {
+    display: block;
+    width: 50px; }
+
+  .open-panel {
+    float: right;
+    padding-top: 10px; }
+    .open-panel svg {
+      width: 25px;
+      height: 25px; }
+
+  .close-panel {
+    float: right;
+    padding-top: 10px; }
+    .close-panel svg {
+      width: 15px;
+      height: 15px; }
+
+  nav {
+    width: 200px;
+    position: absolute;
+    left: -91%;
+    top: 0;
+    height: 30%; }
+
+  ul.menu {
+    border-top: 1px solid #888; }
+    ul.menu li {
+      float: none;
+      width: 100%;
+      text-align: left;
+      padding: .5em 1em;
+      box-sizing: border-box; }
+
+  .openNav #page {
+    left: 0;
+    -webkit-transform: translate3d(85%, 0, 0);
+    -moz-transform: translate3d(85%, 0, 0);
+    -ms-transform: translate3d(85%, 0, 0);
+    -o-transform: translate3d(85%, 0, 0);
+    transform: translate3d(85%, 0, 0);
+    -webkit-transition: -webkit-transform 500ms ease;
+    -moz-transition: -moz-transform 500ms ease;
+    -o-transition: -o-transform 500ms ease;
+    transition: transform 500ms ease; }
+
+  #page {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 500ms ease;
+    -moz-transition: -moz-transform 500ms ease;
+    -o-transition: -o-transform 500ms ease;
+    transition: transform 500ms ease; } }
+
+/*# sourceMappingURL=off-canvas-menu.css.map */
