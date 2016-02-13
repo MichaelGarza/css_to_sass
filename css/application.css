@@ -363,7 +363,7 @@ th {
   box-sizing: border-box; }
 
 body {
-  font-family: 'Ek Mukta', sans-serif;
+  font-family: "Ek Mukta", sans-serif;
   line-height: 1.4;
   color: #494949;
   background: #D1DDD3; }
@@ -441,8 +441,7 @@ body {
         width: 55%;
         float: left;
         text-align: left;
-        padding-top: 10px;
-        font-size: 1.2em; } }
+        padding-top: 10px; } }
   .description img {
     width: 200px; }
     @media (min-width: 768px) {
@@ -481,7 +480,7 @@ body {
   .contact ul {
     padding-top: 30px;
     padding-bottom: 50px;
-    font-size: 1.09em; }
+    font-size: 1.1em; }
     @media (min-width: 768px) {
       .contact ul {
         font-size: 1.25em;
@@ -489,7 +488,7 @@ body {
   .contact li {
     padding: 5px; }
   .contact p {
-    font-size: 1.09em;
+    font-size: 1.1em;
     padding-top: 5px; }
     @media (min-width: 768px) {
       .contact p {
@@ -519,7 +518,7 @@ body {
   .proj h2 {
     max-width: 300px;
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 1.25em;
     padding-top: 20px;
     padding-bottom: 10px; }
   .proj p {
@@ -649,8 +648,7 @@ body {
         padding-top: 5px; } }
   @media (min-width: 768px) {
     .bottom-nav ul {
-      float: right;
-      font-size: .9em; } }
+      float: right; } }
   .bottom-nav li {
     display: none; }
     @media (min-width: 768px) {

@@ -11,7 +11,7 @@
          margin: 0 auto;
          padding-top: 15px;
          padding-bottom: 15px;
-         font-size: 1.8em;   
+         font-size: $font-lg;   
       } 
       @include desktop {
          width: 40%;
@@ -51,7 +51,7 @@
 .description {
    margin-top: 20px;
    p {
-      font-size: 1.1em;
+      font-size: $font-sm;
       @extend %zero-auto;
       max-width: 430px;
       padding-top: 15px;
@@ -60,7 +60,7 @@
          float: left;
          text-align: left;
          padding-top: 10px;
-         font-size: 1.2em;
+         
       }
    }
    img {

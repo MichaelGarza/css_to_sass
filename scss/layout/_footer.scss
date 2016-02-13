@@ -19,9 +19,9 @@
       @extend %zero-auto;
       padding-top: 30px;
       padding-bottom: 50px;
-      font-size: 1.09em;
+      font-size: $font-sm;
       @include tablet {
-         font-size: 1.25em;
+         font-size: $font-md;
          padding-bottom: 60px;
       }
    }
@@ -29,11 +29,11 @@
       padding: 5px;
    }
    p {
-      font-size: 1.09em;
+      font-size: $font-sm;
       @extend %zero-auto;
       padding-top: 5px;
       @include tablet {
-         font-size: 1.25em;
+         font-size: $font-md;
          padding-top: 20px;
          padding-bottom: 20px;
       }
